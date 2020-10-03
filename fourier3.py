@@ -1,10 +1,10 @@
 import xml.etree.ElementTree as ET
 import cv2
-from svgpathtools import svg2paths, wsvg
+from svgpathtools import svg2paths, wsvg #pip install svgpathtools
 from svgpathtools import parse_path, Line, Path, wsvg
-from cv2 import VideoWriter, VideoWriter_fourcc
-import cmath
-import numpy as np
+from cv2 import VideoWriter, VideoWriter_fourcc #pip install opencv-python
+import cmath 
+import numpy as np #pip install numpy
 import math
 
 svg_path = 'utn.svg'       #Archivo SVG a leer
